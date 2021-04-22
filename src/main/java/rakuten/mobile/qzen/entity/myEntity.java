@@ -5,6 +5,7 @@ public class myEntity {
 	private String name;
 	private Long id;
 
+
 	public Long getId() {
 		return id;
 	}
