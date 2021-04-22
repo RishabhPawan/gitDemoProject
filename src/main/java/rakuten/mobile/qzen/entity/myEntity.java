@@ -3,6 +3,15 @@ package src.main.java.rakuten.mobile.qzen.entity;
 public class myEntity {
 
 	private String name;
+	private Long id;
+
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
 
 	public String getName() {
 		return name;
