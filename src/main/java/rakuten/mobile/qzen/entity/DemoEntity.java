@@ -5,7 +5,14 @@ public class DemoEntity {
 	private String name;
 	private Long id;
 	private String email;
+	private Long phone;
 	
+	public Long getPhone() {
+		return phone;
+	}
+	public void setPhone(Long phone) {
+		this.phone = phone;
+	}
 	public String getName() {
 		return name;
 	}
