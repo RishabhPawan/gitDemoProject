@@ -4,6 +4,7 @@ public class DemoEntity {
 	
 	private String name;
 	private Long id;
+	private String email;
 	
 	public String getName() {
 		return name;
@@ -16,5 +17,11 @@ public class DemoEntity {
 	}
 	public void setId(Long id) {
 		this.id = id;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
 	}
 }
